@@ -9,6 +9,7 @@ public class BankTransactionApp {
     public static void main(String[] args) {
         Authorization authorization = new Authorization();
         checkIban(authorization);
+        scanner.close();
 
     }
     // Authorized IBAN: DE98549124934583473494
